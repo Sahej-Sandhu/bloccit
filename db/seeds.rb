@@ -15,6 +15,9 @@ require 'random_data'
    )
  end
 
+Post.find_or_create_by!(title: "My find_created Title", body: "Lets see if this exists")
+
+
  puts "Seed finished"
  puts "#{Post.count} posts created"
  puts "#{Comment.count} comments created"
