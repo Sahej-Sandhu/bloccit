@@ -11,6 +11,9 @@ gem 'rails', '~> 5.1.2'
 # Bootstrap
 gem 'bootstrap-sass'
 
+# Used for encrypting passwords
+ gem 'bcrypt'
+
 # #1
 group :production do
   # Use pg as the production database for Active Record
