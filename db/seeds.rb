@@ -47,7 +47,7 @@ topics = Topic.all
 
  member = User.create!(
    name:     'Member User',
-   email:    'member@example.com',
+   email:    'indango@gmail.com',
    password: 'helloworld'
  )
 
